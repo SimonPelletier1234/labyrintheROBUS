@@ -1,8 +1,7 @@
-
 #include <Arduino.h>
 
-const int pinRouge = 2;
-const int pinVert  = 3;
+const int pinRouge = A0;
+const int pinVert  = A1;
 
 int Find_Mur() {
   bool rouge = digitalRead(pinRouge);

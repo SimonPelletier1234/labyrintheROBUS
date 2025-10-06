@@ -1,10 +1,8 @@
-
-
 // Avancer droit (contrôle P) — LibRobUS
 #include <LibRobus.h>
 
 // === Réglages simples ===
-const float vitesseBase = 0.35f;        // consigne de vitesse (0..1)
+const float vitesseBase = 0.10f;        // consigne de vitesse (0..1)
 const float gainProportionnel = 0.02f;  // Kp : corrige l’écart gauche-droite
 const uint16_t periodeEchantillonnageMs = 20;
 
